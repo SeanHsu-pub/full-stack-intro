@@ -1,0 +1,17 @@
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #a4e024;
+  padding: 0 20px 20px 20px;
+  border: 5px solid rgb(123, 188, 33);
+  background-image:url("https://scontent-iad3-2.xx.fbcdn.net/v/t39.8562-6/422083590_1312812522712666_5569536549360094726_n.png?_nc_cat=111&ccb=1-7&_nc_sid=f537c7&_nc_ohc=J0vkY7VU5lcQ7kNvwGug6rH&_nc_oc=Admhv7-poRaovcqLd9ZGeQS77XEDCAfYinkWrfbmKPsVGYS7EYH8BCOXhRe2H1lqejsUPN_lHBvg5jbV_Ln2ZEu6&_nc_zt=14&_nc_ht=scontent-iad3-2.xx&_nc_gid=-kHUDigdh_DTZFnkp7udOw&oh=00_AfbQG6VuddQWZWsW9mNVVa8jFsfQv_awcBECODW9FfYArw&oe=68E2D47C");
+  /* background-size: 50% 50%; */
+  background-position: top;
+  opacity:0.87;
+}
+
+H1, p {
+  color: rgb(255, 68, 0);
+  font-size: 60px;
+  background-color: yellow;
+}

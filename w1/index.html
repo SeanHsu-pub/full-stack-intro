@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>簡單範例</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+        }
+
+        h1 {
+            margin-bottom: 8px;
+        }
+
+        button {
+            padding: 8px 14px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            filter: brightness(1.05);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>我的第一個網頁</h1>
+    <p id="msg">這是一行內文。</p>
+    <button id="btn">點我一下</button>
+
+    <ol>
+        <li>First</li>
+        <li>Second</li>
+    </ol>
+
+    <script>
+        document.getElementById("btn").addEventListener("click", () => {
+            const p = document.getElementById("msg");
+            p.textContent = p.textContent === "這是一行內文。"
+                ? "你剛剛按了按鈕！"
+                : "這是一行內文。";
+        });
+    </script>
+</body>
+
+</html>
